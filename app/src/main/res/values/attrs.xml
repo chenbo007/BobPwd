@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PwdEditText">
+        <!--圆点大小 当type=oval-->
+        <attr name="ovalSize" format="dimension" />
+        <!--圆角-->
+        <attr name="radius" format="dimension" />
+        <!--颜色-->
+        <attr name="contentColor" format="color" />
+        <!--能输入多少位-->
+        <attr name="num" format="integer" />
+        <!--线条颜色-->
+        <attr name="lineColor" format="color" />
+        <attr name="contentType">
+            <enum name="oval" value="1" />
+            <enum name="normal" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
